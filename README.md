@@ -1,28 +1,28 @@
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
-# [Project Name] [build badges go here when available]
+# [New Relic module for Nuxt.js] 
 
->[Brief description - what is the project and value does it provide? How often should users expect to get releases? How is versioning set up? Where does this project want to go?]
+The module enables Nuxt.Js instrumentation for [New Relic](https://docs.newrelic.com/docs/agents/nodejs-agent/installation-configuration/install-nodejs-agent/).
 
 ## Installation
 
-> [Include a step-by-step procedure on how to get your code installed. Be sure to include any third-party dependencies that need to be installed separately]
+- Add `@nuxtjs/newrelic` dependency using yarn or npm to your project
 
-## Getting Started
+```js
+  npm install newrelic
+  npm install git+https://github.com/preddy-newrelic/nuxt-newrelic-module.git#1.0.1
+```
 
->[Simple steps to start working with the software similar to a "Hello World"]
+- Then, add `@nuxtjs/newrelic` to the `modules` section of `nuxt.config.js`
 
-## Usage
+```js
+{
+  modules: [
+    '@nuxtjs/newrelic',
+  ]
+}
+```
 
->[**Optional** - Include more thorough instructions on how to use the software. This section might not be needed if the Getting Started section is enough. Remove this section if it's not needed.]
-
-## Building
-
->[**Optional** - Include this section if users will need to follow specific instructions to build the software from source. Be sure to include any third party build dependencies that need to be installed separately. Remove this section if it's not needed.]
-
-## Testing
-
->[**Optional** - Include instructions on how to run tests if we include tests with the codebase. Remove this section if it's not needed.]
 
 ## Support
 
@@ -49,6 +49,6 @@ If you believe you have found a security vulnerability in this project or any of
 
 ## License
 
-[Project Name] is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
+[New Relic module for Nuxt.js] is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
 
->[If applicable: [Project Name] also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.]
+New Relic module for Nuxt.js also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.

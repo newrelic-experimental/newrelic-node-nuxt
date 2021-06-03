@@ -1,0 +1,18 @@
+{
+  "name": "@nuxtjs/newrelic",
+  "version": "1.0.0",
+  "description": "New Relic module for Nuxt.js",
+  "main": "lib/module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nuxt.js",
+    "newrelic"
+  ],
+  "author": "Prakash Soma Reddy",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5"
+  }
+}
